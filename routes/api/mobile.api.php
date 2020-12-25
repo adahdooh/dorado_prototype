@@ -14,13 +14,12 @@ Route::group(['middleware' => ['json.response','english.numbers']], function () 
 
     // public routes
     Route::post('/login', 'Api\AuthController@login')->name('login.api');
-  
+
+    Route::get('/users','Api\UserController@index')->name('users.all');
+    Route::post('/interview/next', 'Api\UserController@next_interview')->name('users.interview.notify');
+        
     // private routes
     Route::middleware('auth:api')->group(function () {
-
-        Route::get('/users', 'Api\UserController@index')->name('users.all');
-        Route::post('/interview/next', 'Api\UserController@next_interview')->name('users.interview.notify');
-        
         Route::get('/logout', 'Api\AuthController@logout')->name('logout.mobile');
     });
 });
