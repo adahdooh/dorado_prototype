@@ -1,0 +1,260 @@
+.not-active {
+    pointer-events: none;
+    cursor: default;
+}
+
+.control-label{
+    text-align: center !important;
+}
+.delete-icon{
+    color: #ff5722;
+    font-size: 20px;
+}
+
+.update-icon{
+    color: #ffbd22;
+    font-size: 20px;
+}
+
+.grant-icon{
+    color: #2196f3;
+    font-size: 20px;
+}
+.show-icon{
+    color: #2196f3;
+    font-size: 20px;
+}
+.branch-user-icon{
+    color: #2196f3;
+    font-size: 20px;
+}
+.user-names{
+    background: whitesmoke;
+    border-radius: 5px;
+    padding: 1px 7px;
+}
+
+.users-popup-table{
+    height: 420px;
+    max-height: 420px;
+}
+
+
+.search-input{
+    background: whitesmoke;
+    padding: 5px;
+    margin: 3px;
+    border: 1px solid #cecece;
+}
+.search-input input{
+    width: 50%;
+    margin: 0 auto;
+    background: white;
+}
+
+.modal-header .close {
+    background: #ccc !important;
+    position: absolute !important;
+    right: 2px !important;
+    top: 6% !important;
+    margin-top: 0 !important;
+    padding: 1px 4px !important;
+    border-radius: 50% !important;
+}
+.user-name-selected{
+    background: #00bcd4;
+    border-radius: 5px;
+    padding: 0px 11px;
+    color: white;
+    font-weight: bold;
+}
+
+.success-permission{
+    margin: 5px;
+    background-color: rgba(204, 251, 206, 0.98);
+    border: 1px solid #43a047 !important;
+}
+.unselected-permission{
+    margin: 5px;
+    background: #f5f5f5;
+}
+.permission-name{
+    min-width: 105px;
+
+}
+.footer-fixed-bar{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background: #263238;
+    text-align: left;
+    z-index: 2;
+}
+
+.footer-fixed-bar button{
+    margin-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.student-image{
+    background: #f5f5f5;
+    padding: 5px;
+    border-radius: 16px;
+    float: right;
+}
+.student-name{
+    display: block;
+    float: right;
+    margin: 0px 10px;
+    font-size: 11px;
+}
+.student-gender{
+    display: block;
+    float: right;
+    margin: 0px 10px;
+    font-size: 11px;
+}
+.student-level{
+     display: block;
+     float: right;
+    margin: 0px 10px;
+    font-size: 11px;
+ }
+.custom-td-show{
+    background: #f0f9ff;
+    padding: 10px;
+    font-size: 12px;
+    text-align: center;
+}
+.custom-td-show .labels{
+    color:#f44336;
+}
+.custom-td-show img{
+    border: 1px solid #e8edf1;
+    background: #fafafa;
+    padding: 5px;
+    padding-left:13px;
+    border-radius: 50%;
+}
+.selected-td-show{
+    background-color: #f0fff0;
+}
+.hide-td{
+    display: none;
+}
+.input-hide{
+    display: none;
+}
+.student-text-hide{
+    display: none;
+}
+
+.input-search{
+    background-color: #f6f6f6;
+    width: 94%;
+    height: 250px;
+    max-height: 250px;
+    z-index: 2;
+    position: absolute;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    overflow-y: auto;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px #ddd;
+}
+.input-search ul li{
+    padding: 10px 20px;
+    background: #e8f3ff;
+    margin-top: 1px;
+    border-bottom: 1px solid #dadada;
+    color: #607d8b;
+    cursor: pointer;
+}
+.input-search ul li:hover{
+    background: #f0f8ff;
+}
+.optimal-loader{
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: absolute;
+    opacity: 0.5;
+    display: none;
+}
+
+.optimal-loader i{
+    display: block;
+    position: relative;
+    top: 50%;
+}
+
+/*.search-inputs div{*/
+    /*padding:0px !important;*/
+/*}*/
+
+/*.search-inputs div label{*/
+    /*padding:0px !important;*/
+    /*text-align:left !important;*/
+/*}*/
+.input-group-addon:first-child {
+    border-right: 0 !important;
+    border-left: 0 !important;
+}
+.input-group-addon{
+    border:0px !important;
+}
+.appointment-green{
+    color: #007e00;
+    border-radius: 5px;
+    background: #d5ffd7;
+    margin-right: 8px;
+    font-weight: bold !important;
+}
+.days-label{
+    margin-right: 8px;
+}
+.time-label-green{
+    color: #209725;
+    font-weight: bold !important;
+}
+.appointment-rows .row{
+    margin-bottom: 10px;
+}
+#groups-appointments-table th{
+    text-align: center !important;
+}
+#groups-appointments-table{
+    text-align: center !important;
+}
+.appointment-bold{
+    font-weight: bold !important;
+    font-size: 12px !important;
+}
+.current-day{
+    background: #e5fbe6 !important;
+}
+#teacher-groups-table .label{
+    font-size: 12px !important;
+}
+#students-group-table .label{
+    font-size: 12px !important;
+}
+.hide-something{
+    display: none !important;
+}
+.info-header{
+    padding:18px;
+}
+.info-value-header{
+    font-weight: bold;
+}
+.td-payment-value{
+    font-weight: bold !important;
+}
+.form-control[disabled], fieldset[disabled] .form-control {
+    background: #f8f8f8;
+}
+.form-control-feedback-custom{
+    pointer-events: all !important;
+}

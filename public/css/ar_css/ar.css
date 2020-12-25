@@ -1,0 +1,59 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+
+body{
+	font-family: 'Droid Arabic Kufi', sans-serif !important;
+}
+.navbar-header{
+	float: right !important;
+}
+
+.navbar-nav{
+	float: right !important;
+}
+
+.float-left{
+	float: left !important;
+}
+
+.margin-left-20{
+	margin-left: 20px !important;
+}
+
+.navigation li>.has-ul:after{
+	right:inherit !important;
+	left: 20px !important;
+	content: "\e9c4" !important;
+
+}
+.navigation li a>i{
+	float: right !important;
+}
+.navigation li a>span{
+	padding: 0px 8px !important;
+}
+
+.navigation li>.has-ul {
+ 	padding-right: 10px !important;
+}
+.navigation li>.has-no-ul {
+	padding-right: 10px !important;
+}
+.breadcrumb-line .breadcrumb{
+	float: right !important;
+	padding-right: 25px !important;
+}
+.breadcrumb-elements{
+	float: left !important;
+}
+.checkbox .checker, .checkbox-inline .checker {
+	position: absolute;
+	top: 1px;
+	right: 0 !important;
+	margin: 0px 5px;
+}
+.time-label{
+	float: right;
+	margin: 4px;
+}

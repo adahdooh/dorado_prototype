@@ -1,0 +1,10 @@
+@font-face {
+   font-family: 'Changa-Bold';
+   font-display: swap;
+   src: url('Changa-Bold/font.ttf');
+}
+@font-face {
+   font-family: 'Changa-Regular';
+   font-display: swap;
+   src: url('Changa-Regular/font.ttf');
+}
