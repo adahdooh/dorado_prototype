@@ -124,8 +124,8 @@ var main = function () {
             $(this).addClass('btn-loading');
             let load = setInterval(function () {
                 $('#loading').slideUp('slow');
-                console.log('test');
                 $(this).removeClass('btn-loading');
+                $('.rec1,.rec2,.rec3').addClass('index');
             }, 3000);
 
             setInterval(function () {
