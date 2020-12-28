@@ -62,7 +62,7 @@ class SendNotification extends Notification
     public function toFcm($notifiable)
     {
         $image = 'https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png';
-        return FcmMessage::create()
+        $ttt = FcmMessage::create()
             ->setData(['data1' => 'value', 'data2' => 'value2'])
             ->setNotification(\NotificationChannels\Fcm\Resources\Notification::create()
                 ->setTitle($this->title)
@@ -77,7 +77,7 @@ class SendNotification extends Notification
                 ApnsConfig::create()
                     ->setFcmOptions(ApnsFcmOptions::create()->setAnalyticsLabel('analytics_ios')));
 
-
+        return $ttt;
     }
 
     /**

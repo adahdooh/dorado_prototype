@@ -203,3 +203,5 @@ use Illuminate\Support\Arr;
 //      });
 
 // });
+
+Route::get('/not_authenticated', 'Api\AuthController@not_authenticated')->name('not_authenticated');

@@ -48,6 +48,7 @@ class UserController extends Controller
      */
     public function next_interview(Request $request)
     {
+
         $validator = Validator::make($request->all(), [
             'user_id' => 'required',
             'interview_duration' => 'required',
@@ -67,7 +68,7 @@ class UserController extends Controller
         {
             $next_user = User::find($request->get('next_user_id'));
             if ($next_user != null && $next_user->fcm_token != null){
-                $next_user->notify(new SendNotification(null, $request->title, null, $request->message));
+                $next_user->notify(new SendNotification(null, 'Call', 'test', 'Call'));
             }
         }
 
