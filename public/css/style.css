@@ -110,7 +110,7 @@ html, body {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: 55%;
+  width: 60%;
   padding: 0 30px;
   position: relative; }
   .video .video-handler {
@@ -172,7 +172,7 @@ html, body {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  width: 30%;
+  width: 35%;
   padding: 0 30px; }
   .candidate-list .nominated {
     font-size: 16px;
