@@ -1,4 +1,8 @@
 @charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+
 @font-face {
   font-family: 'Roboto';
   src: local("Roboto-Light"), url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
@@ -48,12 +52,12 @@ html, body {
 .page-content {
   padding: 50px 0; }
 
-.title {  
+.title {
   margin-bottom: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   padding: 0px 13rem 0 3rem;
-  display: flex; 
+  display: flex;
 }
 
   .title .title-info {
@@ -378,3 +382,129 @@ html, body {
 
 .index {
   z-index: 3; }
+@media screen and (max-width: 1200px) {
+    .title {
+        padding: 0px 3rem 0 3rem;
+    }
+
+    .title h2 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .container-content {
+        width: 90%;
+    }
+
+    .title {
+        padding: 0;
+    }
+
+    .title h2 {
+        font-size: 24px;
+    }
+
+    .rec2 {
+        display: none;
+    }
+
+    .candidate-list {
+        padding: 0 15px;
+        width: auto;
+        flex: 40% 0 0;
+    }
+
+    .video {
+        padding: 0 15px;
+        width: auto;
+        flex: 60% 0 0;
+    }
+
+    .candidate-list ul li {
+        padding: 15px 10px;
+    }
+
+    .row {
+        margin: 0 -15px;
+    }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    html, body {
+        overflow: scroll;
+    }
+    .title h2{
+        font-size: 20px;
+    }
+    .rec1, .rec2, .rec3 {
+        display: none;
+    }
+
+    .candidate-list .nominated {
+        font-size: 14px;
+    }
+
+    .candidate-list {
+        padding: 0 15px;
+        width: auto;
+        flex: 100% 0 0;
+    }
+
+    .video {
+        padding: 0 15px;
+        width: auto;
+        flex: 100% 0 0;
+    }
+    .nominated{
+        display: none;
+    }
+    .candidate-list{
+        margin-bottom: 20px;
+    }
+    .candidate-list ul{
+        border: 0;
+    }
+    .candidate-list ul li{
+        display: none;
+        padding: 0 0 5px;
+    }
+    .candidate-list ul li.active{
+        display: flex;
+    }
+    .active-arrow{
+        display: none;
+    }
+    #agora_local{
+        width: 150px;
+        height: 150px;
+    }
+    .video .video-handler{
+        height: calc(100vh - 250px);
+    }
+
+}
+@media screen and (max-width: 375px) {
+    .title{
+        margin-bottom: 15px;
+    }
+    .title h2 {
+        font-size: 18px;
+    }
+    .title p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 320px) {
+
+    .title h2 {
+        font-size: 16px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .video .video-handler{
+        height: calc(100vh - 200px);
+    }
+}
